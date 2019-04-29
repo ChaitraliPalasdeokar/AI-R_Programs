@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IBMSolution">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="375dp"
+            android:layout_height="407dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Solutions:\n 1)Option A:245 mtrs.\nGiven speed is 45km/h therefore 45*(5/8)=12.5m/s and time is 30s so Distance travelled is 375m,length=375-130=245m.\n\n
+2)Option A:\nOn the fourth for 0 year. In total an interest for 6 years will be paid (3 + 2 + 1 + 0) on Rs. 100 @ 10%. Interest = (100 × 6 × 10)/100 = Rs. 60 and the principal is Rs 100 × 4 = Rs 400. The total loan that can be discharged is Rs. 400 + 60 = Rs. 460. Here the technique of Chain Rule will be applied. I.e. for Rs. 460 the instalment required is Rs. 100, for Rs. 4600 the instalment required is 4600 × 100/460 = Rs. 1000.\n\n
+3)Option B:\n100%  Given selling price is doubled so 2y ,profit=2y-x = 3y-x =x and profit percent is=(x*100)/x=100% \n\n
+4)Option C:\nGiven 20% of a=b so b = 20a/100 = a/5 = 4a/100 = 4% of a\n\n
+5)Option B:\n200 as it is diminished by 5 at fourth equal part,5*4=20*10=200.\n\n
+6)Option C:\n20% Given total nos=70 so 1's in unit place among first 70 nos is 7 and 9's is 7 i.e 14 therefore 140/7=20%\n\n
+7)Option C:\n25% We know, total hours in a day=24 so % is 6/24*100=25% \n \n
+8)Option A:\n1.6 litres Quantity of pure acid is 8*(20/100)=1.6 litres\n \n
+9)Option C:\nThe passage describes about Wisdom and difference between wisdom and knowledge. Also as stated in line ' but the point of our present discussion is this, that all men suppose what is called Wisdom to deal with the first causes and the principles of things' it is clear that Wisdom is being discussed in passage\n \n
+10)Option A:\n7/8 We know total possible outcome will be 2*2*2=8 and at most 7 is event of getting 2 heads therefore p(s)=7/8 \n \n
+11)Option C:\nB is thrice as fast as C,C covers in 42min∴ B covers in 42/3 = 14 min,A is twice as fast as B ∴ A covers in 14 * (1/2) = 7 min\n\n
+12)Option B:\n Solution is: 30000(107/100)^n = 34347 = 11449/10000 = (107/100)^2 = 2 years \n\n
+13)Option C:\n789 as Each no is twice the previous one with 1 added or subtracted altenatively \n \n
+14)Option C:\nCube root is 0.09\n\n
+15)Option B:\nRequired average= (9 + 18 + 27 + 36 +45)/5=27.\n\n
+16)Option B:\nThe preposition for is used when we are talking about duration. Thus the answer is option B.\n\n
+17)Option C:\nThe correct spellings are TURQUOISE.\n\n
+18)Option C:\nYour maternal cousin. \n \n
+19)Option D:\nOne word for the person obsessed with self is narcissist.\n \n
+20)Option C:\n26 is the missing number after calculations.\n\n
+THANKS FOR ATTEMPT."
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TCSActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="133dp"
+        android:layout_marginStart="41dp"
+        tools:ignore="RtlCompat">
+
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option1"
+            android:textSize="15dp"
+            android:freezesText="true"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option2"
+            android:textSize="15dp"
+            android:freezesText="true"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option3"
+            android:textSize="15dp"
+            android:freezesText="true"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="InvalidId" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="119dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/end"
+        android:layout_marginStart="42dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        tools:ignore="InvalidId,RtlCompat,UnknownId" />
+
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="119dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="45dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        tools:ignore="InvalidId,RtlCompat" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="351dp"
+        android:layout_height="195dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text=" "
+        android:freezesText="true"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="15dp"
+        android:text="00:00"
+        android:freezesText="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

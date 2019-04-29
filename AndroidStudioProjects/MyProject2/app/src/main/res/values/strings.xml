@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name" translatable="false">ENGINEERING APTITUDE</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="text">1. A box of 150 packets consists of 1kg packets and 2kg packets. Total weight of box is 264kg. How many 2kg packets are there ?\nSol)x= 2 kg Packs
+y= 1 kg packs\n
+x + y = 150     .......... Eqn 1\n
+2x + y = 264   .......... Eqn 2 \n
+Solve the Simultaneous equation; x = 114\n
+so, y = 36\n
+ANS :  Number of 2 kg Packs = 114.\n\n
+       2. My flight takes of at 2am from a place at 18N 10E and landed 10 Hrs later at a place with coordinates 36N70W. What is the local time when my plane landed?\n
+        Sol) The destination place is 80 degree west to the starting place. Hence the time difference between these two places is 5 hour 20 min. (=24hr*80/360).\n
+When the flight landed, the time at the starting place is 12 noon (2 AM + 10 hours).
+Hence, the time at the destination place is 12 noon - 5:20 hours = 6: 40 AM\n\n
+        3. Y catches 5 times more fishes than X. If total number of fishes caught by X and Y is 42, then number of fishes caught by X?\n
+Sol) Let no. of fish x catches=p\n
+no. caught by y =r\n
+r=5p.\n
+r+p=42\n
+then p=7,r=35\n
+ANS:7 \n\n
+4. It is —— absurd story\n
+ANS:an\n\n
+5.While traveling on a train, you notice a man from the coach behind your fall of the train. You would?\n
+ANS:Pull the alarm chain so that the train may stop and the man may be helped. \n\n
+        6.fill the blank: 6, 24, 60, 120, 210, ___\n
+        ANS:=>23 – 2, 33 – 3, 43 – 4, 53 – 5, 63 – 6, __ \nThe next number in the series is
+73 – 7 = 336.\n\n
+        7.  One afternoon, Manisha and Madhuri were talking to each other face to face in Bhopal on M.G. Road. If Manisha’s shadow was exactly to the exactly to the left of Madhuri, which direction was Manisha facing?\n
+        ANS:north\n
+        Sol)In the afternoon the sun is in the west. Hence, the shadow is in the East. Now, East is to the left of Madhuri.\n So, Madhuri is facing South.\n Therfore, Manisha, who is face to face with Madhuri, is facing North.\n\n
+        8. State the tense:Are you playing tennis?\n
+        ANS:Present Continuous Tense\n\n
+        9.  Odd man out: 1, 2, 4, 8, 16, 32, 64, 96\n
+        ANS:Each term of the series is obtained by multiplying the preceding term by 2. So, 96 is wrong and must be replaced by (64 * 2) i.e. 128.\n\n
+        10. All except one of the following are important strategies that a manager can use to create a more effective decision-making environment, Which one is not?\n
+        ANS: Relying solely upon himself/herself\n
+        Sol)To get effective decision-making environment, Manager should encourage others to make decisions as well as should recognize the importance of quality information. The manager is also expected to try new things to improvise the outcome of a decision. So manager should encourage for the participative/ Democratic process of decision making rather relying solely up on himself/herself.\n\n
+        11.  Four of the following five are alike in a certain way and so form a group. Which is the one that does not belong to that group?\n
+        OPTIONS:1. Food: Hunger\n
+2. Water: Thirst \n
+3. Talent: Education \n
+        ANS:Talent: Education\n\n
+        12.The sum of four consecutive even numbers is 292. What would be the smallest number?\n
+        ANS:70\n
+        Sol)Let the four consecutive even numbers be 2(x – 2), 2(x – 1), 2x, 2(x + 1)\n
+Their sum = 8x – 4 = 292 => x = 37\n
+Smallest number is: 2(x – 2) = 70.\n\n
+         13.A fair price shopkeeper takes 10% profit on his goods. He lost 20% goods during theft. His loss percent is?\n
+        ANS:12\n
+        Sol)Suppose he has 100 items. Let C.P. of each item be Re. 1.\n
+Total cost = Rs. 100. Number of items left after theft = 80.\n
+S.P. of each item = Rs. 1.10\n
+Total sale =  1.10 * 80 = Rs. 88\n
+Hence, loss % = 12/100 * 100 = 12%\n\n
+        14. Find the one which does not belong to that group?\n
+OPTIONS:1. Baseball\n
+2. Boxing \n
+3. Chess \n
+Answer: Baseball\n
+Sol)Boxing, Chess,are individual events, while Baseball is a team event.\n\n
+        15.If the sum and difference of two numbers are 20 and 8 respectively, then the difference of their square is?\n
+        ANS:160\n
+
+Sol)
+Let the numbers be x and y.\n
+Then, x + y = 20 and x – y = 8\n
+x2 – y2 = (x + y)(x – y) = 20 * 8 = 160.\n\n
+        16.The H.C.F and L.C.M of two numbers are 84 and 21 respectively. If the ratio of the two numbers is 1:4, then the larger of the two numbers is?\n
+        ANS:84\n
+        Sol)Let the numbers be x and 4x. \nThen, x * 4x = 84 * 21 x2 = (84 * 21)/4 = x = 21.\n
+Hence, larger number = 4x = 84.\n\n
+        17.Kim can do a work in 3 days while David can do the same work in 2 days. Both of them finish the work together and get Rs. 150. What is the share of Kim?\n
+        ANS:60\n
+        Sol)Kim’s wages : David’s wages = Kim’s 1 day work : David’s 1 day work\n = 1/3 : 1/2 \n= 2:3\n
+Kim’s share = 2/5 * 150 = Rs. 60\n\n
+        18.Excluding stoppages, the speed of a bus is 54 km/hr and including stoppages, it is 45 km/hr. For how many minutes does the bus stop per hour?\n
+       ANS:10 min\n
+        Sol)Due to stoppages, it covers 9 km less.\n
+Time taken to cover 9 km = 9/54 * 60 = 10 min.\n\n
+        19.Salaries of Ravi and Sumit are in the ratio 2:3. If the salary of each is increased by Rs. 4000, the new ratio becomes 40:57. What is Sumit’s present salary?\n
+        Sol)Let the original salaries of Ravi and Sumit be Rs. 2x and Rs. 3x respectively.\n
+Then, (2x + 4000)/(3x + 4000) = 40/57\n
+6x = 68000 => 3x = 34000\n
+Sumit’s present salary = (3x + 4000) = 34000 + 4000 \n= Rs. 38,000\n\n
+        20. Add questiont tag:  I never drink Coke._______\n
+        ANS:do I?\n\n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string>
+
+
+</resources>

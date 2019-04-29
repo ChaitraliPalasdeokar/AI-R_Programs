@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="66dp"
+        android:background="#6c1a14"
+        android:drawableTop="@drawable/ic_thumbs_up_down_black_24dp"
+        android:text="Practice TCS"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="28dp"
+        android:background="#df5a44 "
+        android:drawableTop="@drawable/ic_bulb"
+        android:text="Practice IBM"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="115dp"
+        android:background="#aa1e6f"
+        android:drawableTop="@drawable/ic_touch_app_black_24dp"
+        android:text="Practice ZENSAR"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="249dp" />
+    <Button
+        android:id="@+id/button4"
+        android:background="#345298"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:drawableTop="@drawable/ic_school_black_24dp"
+        android:text="Attempt Final Test"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="249dp"
+        android:layout_alignLeft="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="317dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="#34a20c"
+        android:text="Study Material"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="454dp" />
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZensarSolution">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/solution1"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:text="1. Answer A .\n Solution:
+Net part filled in 1 hour = ( 1/20 – 1/30 – 1/40) = 7 / 120 Therefore tank will be filled in = 120/7 = 17 1/7 minutes.
+   \n\n2. Answer: C \n
+  Solution:
+ Answer: 80 Solution: The simple interest formula is Interest = Principal × Rate × Time I = P×R×T Where: ‘Interest’ is the total amount of interest paid, ‘Principal’ is the amount lent or borrowed, ‘Rate’ is the percentage of the principal charged as interest each year. The rate is expressed as a decimal fraction, so percentages must be divided by 100. ‘Time’ is the time in years of the loan. S.I = P×R×T S.I. = Rs. 4000 * 8% * 3 months S.I. = 4000* 8 /100 * 3/12 S.I. = 80\n\n
+3. Answer: B \n
+Solution:
+Case 1: Initial quantity of Water = 15 litres Quantity of Alcohol = 20% = (20/100) * 15 = 3 litres Case 2: Quantity of Water after adding 5 litres of water = 15 + 5 = 20 litres There of the % of alcohol in water = (3 /20) * 100 = 15%
+\n\n4. Answer: A\n
+
+Solution:
+2x / y Answer: 2x / y Solution: Let’s take `z` as the original number of coins. We know that 10x + z = (5y + 1) z i.e.10x + z = 5yz + z 10x/5y = z z = 2x/y. \n
+\n5. Answer: C \n
+
+Solution:
+All given numbers are divisible by 7 but in that 49 is divisible by 7 and also square root of 7. Therefore 49 is alike in a given numbers. \n
+\n6. Answer: A \n
+\n7. Answer: C \n
+\n8. Answer: B
+\n
+Solution:
+ The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E.\n
+\n9. Answer: A \n
+
+Solution:
+The correct order is : Pressure Rain Flood Protect Relief 2 4 5 1 3 \n\n
+10. Answer: B \n
+
+Solution:
+ A and C are youngest so they cannot be selected. D is shorter than two persons A and C. B is shorter than C only and is only relatively order. So, B will be selected. E is younger than B.\n\n
+11. Answer:   \n
+
+Solution:
+200/800 ×100 = 25%\n\n
+12. Answer:   \n
+Amount after 2 years = Rs 720
+Amount after 7 years = Rs 1020
+Therefore, Interest for 5 years = Rs 300
+Interest for 1 year = Rs 60
+And Interest for 2 years = Rs 120
+SO Principal = 720-120 = Rs 600
+Also, 120 = (600*R*2)/100 = R = 10%
+Amount after 2 years = Rs 720
+Amount after 7 years = Rs 1020
+Therefore, Interest for 5 years = Rs 300
+Interest for 1 year = Rs 60
+And Interest for 2 years = Rs 120
+SO Principal = 720-120 = Rs 600
+Also, 120 = (600*R*2)/100 = R = 10%\n\n
+13. Answer:   \n
+
+Solution:
+Train A, Speed = 90kmph
+=90*(5/18)m/s = 25m/s = 25m/s, t=36s
+Let length, L = x+y = time*speed = 25*36 = 900m
+=800m, Speed= 45*(5/18) = (25/2) m/s
+t= (Distance/Speed) = (800/(25/2)) = (1600/25) = 64 seconds\n\n
+14. Answer:   \n
+
+Solution:
+Let speeds be x and y for train and car respectively.
+Then 8 = (160/8) + (600/y) .....(1)
+And 8(1/5) = (240/x) + ((760-240)/y) .....(2)
+Solving for x and y, we get 100 and 80 km/hr.
+You can also use the option straightway for such Qs.\n\n
+15. Answer:  \n
+
+Solution:
+By direction options,500/25=20 ,500/20=25
+By mathematical method, the main steps are: xy = 500 …(1) and (x−5) (y+5) = 500 …(2),
+From eqn. 2, x−y = 5 or y = x−5 Put in eqn 1, x(x−5) = 500 or x2-5x-500=0 ,
+i.e. x = 25 and attended ones = x − 5 = 20\n\n
+16. Answer:   \n
+
+Solution:
+Because the letters are the same, concentrate on the number series, which is a simple 2, 3, 4, 5, 6 series, and follows each letter in order.\n\n
+17. Answer   \n
+Solution:
+
+This is an alternating number subtraction series. First 2 is subtracted then 4 then 2 and so on.\n\n
+18. Answer:  \n
+Solution:
+
+In this addition series 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; 4 is added to the fourth number; and go on.\n\n
+19. Answer:  \n
+Solution:
+
+There are two alphabetical series here.
+
+The first series is with the first letters only: STUVW.
+
+The second series involves the remaining letters: CD, EF, GH, IJ, KL.
+
+\n\n
+20. Answer:  \n
+Solution:
+
+Explanation:
+
+The middle letters are static, so concentrate on the first and third letters.
+
+The series involves an alphabetical order with a reversal of the letters.
+
+The first letters are in alphabetical order: F, G, H, I , J.
+
+The second and fourth segments are reversals of the first and third segments.
+
+The missing segment begins with a new letter.\n\n"></TextView>
+    </ScrollView>
+
+</RelativeLayout>

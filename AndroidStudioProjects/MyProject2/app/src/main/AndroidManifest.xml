@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.myproject">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Data" android:parentActivityName=".AdminLogin"/>
+        <activity android:name=".InstructionActivity" />
+        <activity android:name=".TCSActivity" />
+        <activity android:name=".TCSScoreCard" android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".TCSSolutionActivity" android:parentActivityName=".TCSScoreCard"/>
+        <activity android:name=".FinalQuiz" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".ShowQuestions" android:parentActivityName=".AdminLogin" />
+        <activity android:name=".AddQuestions" android:parentActivityName=".AdminLogin" />
+        <activity android:name=".ZensarInstructionActivity" />
+        <activity android:name=".Zensar" />
+        <activity android:name=".ZensarScoreCard" android:parentActivityName=".Main2Activity" />
+        <activity android:name=".ZensarSolution" android:parentActivityName=".ZensarScoreCard" />
+        <activity android:name=".PracticeMaterialActivity" />
+        <activity android:name=".IBMInstructionActivity" />
+        <activity android:name=".IBM" />
+        <activity android:name=".IBMScoreCard" android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".IBMSolution" android:parentActivityName=".IBMScoreCard" />
+        <activity android:name=".FinalResult" android:parentActivityName=".Main2Activity"/>
+        <activity android:name=".FinalInstruction" />
+        <activity android:name=".DeleteQuestions"></activity>
+    </application>
+
+</manifest>
